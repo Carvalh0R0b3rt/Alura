@@ -3,7 +3,9 @@ import './Banner.css';
 
 function Banner() {
     return (
-        <img src='/images/banner.png' className='Banner-img' alt="Logotipo" />                       
+        <header className='Banner'>
+        <img src='/images/banner.png' alt="Logotipo" />                       
+        </header>
     )
 
 }

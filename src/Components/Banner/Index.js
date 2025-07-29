@@ -1,18 +1,11 @@
-import logo from './logo.png';
-import './App.css';
+import './Banner.css';
 
 
-function App() {
+function Banner() {
     return (
-        <div className="App">
-            
-            <p>
-            <h1>Alura Rocks</h1>
-            </p>
-            
-        </div>
+        <img src='/images/banner.png' className="Banner" alt="Logotipo" />                       
     )
 
 }
 
-export default App;
+export default Banner;

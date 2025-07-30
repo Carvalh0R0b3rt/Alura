@@ -1,6 +1,5 @@
 .campo-texto {
     margin: 24px 0;
-    max-width: 500px;
 }
 
 .campo-texto label{
@@ -11,10 +10,12 @@
 
 .campo-texto input {
     background-color: #fff;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06) ;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     width: 100%;
     border: none;
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
+    border-radius: 5px;
+
 }

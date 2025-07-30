@@ -1,13 +1,3 @@
-import './Banner.css';
-
-
-function Banner() {
-    return (
-        <header className='Banner'>
-        <img src='/images/banner.png' alt="Logotipo" />                       
-        </header>
-    )
-
-}
+import { Banner } from './Banner.js';
 
 export default Banner;

@@ -1,7 +1,7 @@
 import "./Formulario.css";
 import CampoTexto from "../CampoTexto/index"; // Importing CampoTexto component
 import ListaSuspensa from "../ListaSuspensa";
-
+import Botao from "../Botao";
 
 const Formulario = () =>{
 
@@ -27,8 +27,9 @@ const Formulario = () =>{
         <CampoTexto label="Cargo" placeholder="Digite seu cargo" />
 
         <CampoTexto label="Imagem" placeholder="Digite o endereço da sua imagem"/>
-
         <ListaSuspensa label="Time" itens={times}/>
+
+        <Botao texto="Criar Card"/>
       </form>
     </section>
   );
